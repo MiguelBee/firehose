@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Bahiana');
 @import 'bootstrap';
+
 
 .clear {
     clear: both;
@@ -38,8 +40,10 @@
 
 .links a {
     color: black;
-    font-size:25px;
+    font-size:40px;
     border-bottom: 1px solid #27AAD6;
+    font-family: 'Bahiana', cursive;
+    font-weight: bold;
 }
 
 header {
@@ -48,4 +52,12 @@ header {
 
 hr {
     clear: both;
+}
+
+h1 {
+    font-family: 'Bahiana', cursive;
+}
+
+h2 {
+    font-family: 'Bahiana', cursive;
 }
