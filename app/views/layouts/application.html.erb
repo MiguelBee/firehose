@@ -11,6 +11,7 @@
 
   <body>
     <header class="row">
+      <div class="col-3">
       <%= link_to root_path, class: 'logo' do%>
      <div class="circle">
         <br />
@@ -21,15 +22,16 @@
         
     </div>
     <% end %>
-
-      <div class="col-4 slogan"> 
+    </div>
+    <div class="col col-sm-4 hidden-xs-down slogan">
       Phrase Flubbing
       </div>
-      <div class="col-5 links">
+      
+      <div class="col-10 offset-1 offset-sm-0 col-sm-5 links">
         
          <!-- Button trigger modal -->
         <%= link_to 'Contribute', "#", data: {toggle: 'modal', target: '#myModal'} %>
-    
+        &nbsp; &nbsp;
         <%= link_to 'About', about_path %>
       </div>
       
@@ -49,8 +51,9 @@
           </div>
             <%= simple_form_for Quote.new do |f| %>
           <div class="modal-body">
-            <%= f.input :saying %>
-            <%= f.input :author %>
+            <%= f.input :saying, label: 'What phrases can you flub?', placeholder: "I don't knwow what to write" %>
+            <br />
+            <%= f.input :author, label: 'Who said that?', placeholder: "Name please" %>
             </div>
         
           <div class="modal-footer">
@@ -80,10 +83,11 @@
     <div  class="footer">
       <div class="container">
         <div class="row">
-          <div class="col-6">
+          <div class="col-12 col-sm-6">
             <%= link_to "This isn't enough, I need more", root_path, class: "next-quote" %>
           </div>
-          <div class="col-6 footer-blurb">
+          
+          <div class="col-12 col-sm-6 footer-blurb">
             Cleverly Concocted by Miguel Bustamante
           </div>
         </div>
