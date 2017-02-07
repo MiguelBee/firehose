@@ -1,4 +1,5 @@
 class QuotesController < ApplicationController
+    
     def index
     @quote = Quote.order("RANDOM()").first
     end
@@ -10,7 +11,8 @@ class QuotesController < ApplicationController
       if @quote.invalid?
         flash[:error] = "<strong> Could not save</strong> The data you entered is invalid."
       end
-      redirect_to root_path
+      
+    redirect_to root_path
     end
     
     def about
@@ -20,5 +22,5 @@ class QuotesController < ApplicationController
     
     def quote_params
       params.require(:quote).permit(:saying, :author)
-     end
+    end
 end
