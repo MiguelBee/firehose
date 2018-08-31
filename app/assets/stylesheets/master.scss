@@ -3,28 +3,28 @@
 
 
 .clear {
-    clear: both;
+  clear: both;
 }
 
 .circle {
-    font-size: auto;
-    font-weight: bold;
-    font-style: italic;
-    position: relative;
-    border-radius: 100%;
-    background: #f84342;
-    border: 1px solid #2E2222;
-    width: 80px;
-    height: 80px;
-    margin: 10px 10px;
-    text-align: center;
-    color: #FFF;
-    font-size: 10px;
-    line-height: 16px;
-    cursor: pointer;
-    transform: rotate(11deg);
-    -ms-transform: rotate(11deg); /* IE 9 */
-    -webkit-transform: rotate(11deg); /* Opera, Chrome, and Safari */
+  font-size: auto;
+  font-weight: bold;
+  font-style: italic;
+  position: relative;
+  border-radius: 100%;
+  background: #f84342;
+  border: 1px solid #2E2222;
+  width: 80px;
+  height: 80px;
+  margin: 10px 10px;
+  text-align: center;
+  color: #FFF;
+  font-size: 10px;
+  line-height: 16px;
+  cursor: pointer;
+  transform: rotate(11deg);
+  -ms-transform: rotate(11deg); /* IE 9 */
+  -webkit-transform: rotate(11deg); /* Opera, Chrome, and Safari */
 }
 
 .slogan {
@@ -35,71 +35,70 @@
 }
 
 .links {
-    padding-top: 26px;
+  padding-top: 26px;
 }
 
 .links a {
-    color: black;
-    font-size:40px;
-    border-bottom: 1px solid #27AAD6;
-    font-family: 'Bahiana', cursive;
-    font-weight: bold;
+  color: black;
+  font-size:40px;
+  border-bottom: 1px solid #27AAD6;
+  font-family: 'Bahiana', cursive;
+  font-weight: bold;
 }
 
 header {
-    border-top: 9px solid #36758A;
+  border-top: 9px solid #36758A;
 }
 
 hr {
-    clear: both;
-    height: 2px;
+  clear: both;
+  height: 2px;
 }
 
 h1 {
-    font-family: 'Bahiana', cursive;
-    font-size:50px;
+  font-family: 'Bahiana', cursive;
+  font-size:50px;
 }
 
 h2 {
-    font-family: 'Bahiana', cursive;
-    
+  font-family: 'Bahiana', cursive;
 }
 
 .next-quote {
-    color: #DB3235;
-    font-family: 'Bahiana', cursive;
-    font-size: 26px;
+  color: #DB3235;
+  font-family: 'Bahiana', cursive;
+  font-size: 26px;
 }
 
 .footer-blurb {
-     font-family: 'Bahiana', cursive;
-     font-style: italic;
-     text-align: right;
-     font-size: 20px;
+   font-family: 'Bahiana', cursive;
+   font-style: italic;
+   text-align: right;
+   font-size: 20px;
 }
 
 .logo:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .about {
-   font-family: 'Bahiana', cursive;
+ font-family: 'Bahiana', cursive;
 }
 
 @media (max-width: 750px) {
-    .footer-blurb {
+  .footer-blurb {
     text-align: left;
   }
 }
 
 .modal {
-    font-family: 'Bahiana', cursive;
+  font-family: 'Bahiana', cursive;
 }
 
-h2 span{
-    color: #dddddd;
+h2 span {
+  color: #dddddd;
 }
 
 ::selection {
-    background-color: #f84342 ;
+  background-color: #f84342 ;
 }
